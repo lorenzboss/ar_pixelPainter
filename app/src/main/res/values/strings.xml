@@ -1,0 +1,5 @@
+<resources>
+    <string name="camera_activity">Camera</string>
+    <string name="sensor_btn_caption">Sensor</string>
+    <string name="reader_btn_caption">QR reader</string>
+</resources>
