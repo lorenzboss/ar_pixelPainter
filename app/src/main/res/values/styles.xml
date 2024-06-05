@@ -1,9 +1,9 @@
 <resources>
-    <style name="Widget.Theme.TreasureMap.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+    <style name="Widget.Theme.PixelPainter.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
         <item name="android:background">@color/black_overlay</item>
     </style>
 
-    <style name="Widget.Theme.TreasureMap.ButtonBar.Fullscreen" parent="">
+    <style name="Widget.Theme.PixelPainter.ButtonBar.Fullscreen" parent="">
         <item name="android:background">@color/black_overlay</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>

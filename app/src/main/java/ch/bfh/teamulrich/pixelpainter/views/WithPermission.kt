@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.views
+package ch.bfh.teamulrich.pixelpainter.views
 
 import android.Manifest
 import androidx.compose.material.Button

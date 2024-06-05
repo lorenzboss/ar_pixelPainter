@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.views
+package ch.bfh.teamulrich.pixelpainter.views
 
 import android.content.ActivityNotFoundException
 import android.content.Context
@@ -40,8 +40,8 @@ import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
-import ch.bfh.teamulrich.treasuremap.R
-import ch.bfh.teamulrich.treasuremap.data.MarkerManager
+import ch.bfh.teamulrich.pixelpainter.R
+import ch.bfh.teamulrich.pixelpainter.data.MarkerManager
 import org.json.JSONArray
 import org.json.JSONObject
 

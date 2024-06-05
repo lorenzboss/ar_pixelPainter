@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.ui.theme
+package ch.bfh.teamulrich.pixelpainter.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -37,7 +37,7 @@ private val LightColorPalette = lightColors(
 )
 
 @Composable
-fun TreasureMapTheme(
+fun PixelPainterTheme(
     content: @Composable () -> Unit
 ) {
     MaterialTheme(

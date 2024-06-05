@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap
+package ch.bfh.teamulrich.pixelpainter
 
 import androidx.annotation.DrawableRes
 

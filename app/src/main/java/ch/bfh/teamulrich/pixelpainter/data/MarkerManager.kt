@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.data
+package ch.bfh.teamulrich.pixelpainter.data
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,7 +8,7 @@ import org.osmdroid.util.GeoPoint
 
 class MarkerManager private constructor(context: Context) {
     private val sharedPreferences: SharedPreferences =
-        context.getSharedPreferences("TreasureMap", Context.MODE_PRIVATE)
+        context.getSharedPreferences("PixelPainter", Context.MODE_PRIVATE)
     private val gson = Gson()
 
 

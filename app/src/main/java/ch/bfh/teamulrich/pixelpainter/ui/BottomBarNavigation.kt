@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.ui
+package ch.bfh.teamulrich.pixelpainter.ui
 
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
@@ -11,7 +11,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.navigation.NavController
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.currentBackStackEntryAsState
-import ch.bfh.teamulrich.treasuremap.Screen
+import ch.bfh.teamulrich.pixelpainter.Screen
 
 @Composable
 fun BottomBarNavigation(navController: NavController) {

@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.ui.theme
+package ch.bfh.teamulrich.pixelpainter.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

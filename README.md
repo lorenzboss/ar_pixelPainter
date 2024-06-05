@@ -1,4 +1,4 @@
-# Appquest Kotlin TreasureMap 
+# Appquest Kotlin PixelPainter 
 
 
 
@@ -15,14 +15,14 @@ Already a pro? Just edit this README.md and make it your own. Want to make it ea
 
 ```
 cd existing_repo
-git remote add origin https://gitlab.ti.bfh.ch/team-ulrich/appquest-kotlin-treasuremap.git
+git remote add origin https://gitlab.ti.bfh.ch/team-ulrich/appquest-kotlin-pixelpainter.git
 git branch -M main
 git push -uf origin main
 ```
 
 ## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.ti.bfh.ch/team-ulrich/appquest-kotlin-treasuremap/-/settings/integrations)
+- [ ] [Set up project integrations](https://gitlab.ti.bfh.ch/team-ulrich/appquest-kotlin-pixelpainter/-/settings/integrations)
 
 ## Collaborate with your team
 

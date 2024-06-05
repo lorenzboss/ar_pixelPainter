@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'ch.bfh.teamulrich.treasuremap'
+    namespace 'ch.bfh.teamulrich.pixelpainter'
     compileSdk 34
 
     defaultConfig {
-        applicationId "ch.bfh.teamulrich.treasuremap"
+        applicationId "ch.bfh.teamulrich.pixelpainter"
         minSdk 24
         targetSdk 34
         versionCode 1

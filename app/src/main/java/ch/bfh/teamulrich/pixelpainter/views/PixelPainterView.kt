@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap.views
+package ch.bfh.teamulrich.pixelpainter.views
 
 import android.Manifest
 import android.content.Context
@@ -22,8 +22,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.compose.ui.zIndex
 import androidx.core.content.ContextCompat
-import ch.bfh.teamulrich.treasuremap.R
-import ch.bfh.teamulrich.treasuremap.data.MarkerManager
+import ch.bfh.teamulrich.pixelpainter.R
+import ch.bfh.teamulrich.pixelpainter.data.MarkerManager
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
@@ -39,7 +39,7 @@ import org.osmdroid.views.overlay.Marker
 
 
 @Composable
-fun TreasureMapView() {
+fun PixelPainterView() {
     val context = LocalContext.current
     val markerManager = MarkerManager.getInstance(context)
     val mapView = rememberMapViewWithLifecycle()

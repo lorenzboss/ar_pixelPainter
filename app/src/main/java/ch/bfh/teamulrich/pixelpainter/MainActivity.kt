@@ -1,4 +1,4 @@
-package ch.bfh.teamulrich.treasuremap
+package ch.bfh.teamulrich.pixelpainter
 
 import android.Manifest
 import android.os.Bundle
@@ -16,12 +16,12 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import ch.bfh.teamulrich.treasuremap.data.MarkerManager
-import ch.bfh.teamulrich.treasuremap.ui.BottomBarNavigation
-import ch.bfh.teamulrich.treasuremap.ui.theme.TreasureMapTheme
-import ch.bfh.teamulrich.treasuremap.views.PinsView
-import ch.bfh.teamulrich.treasuremap.views.TreasureMapView
-import ch.bfh.teamulrich.treasuremap.views.WithPermission
+import ch.bfh.teamulrich.pixelpainter.data.MarkerManager
+import ch.bfh.teamulrich.pixelpainter.ui.BottomBarNavigation
+import ch.bfh.teamulrich.pixelpainter.ui.theme.PixelPainterTheme
+import ch.bfh.teamulrich.pixelpainter.views.PinsView
+import ch.bfh.teamulrich.pixelpainter.views.PixelPainterView
+import ch.bfh.teamulrich.pixelpainter.views.WithPermission
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 
 class MainActivity : ComponentActivity() {
@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val navController = rememberNavController()
 
-            TreasureMapTheme {
+            PixelPainterTheme {
                 WithPermission(permission = Manifest.permission.ACCESS_FINE_LOCATION,
                     noPermissionContent = {
                         Column(
@@ -55,7 +55,7 @@ class MainActivity : ComponentActivity() {
                             startDestination = Screen.Map.route,
                             modifier = Modifier.padding(innerPadding)
                         ) {
-                            composable(Screen.Map.route) { TreasureMapView() }
+                            composable(Screen.Map.route) { PixelPainterView() }
                             composable(Screen.Pin.route) { PinsView() }
                         }
                     }

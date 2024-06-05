@@ -13,13 +13,13 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TreasureMap"
+        android:theme="@style/Theme.PixelPainter"
         tools:targetApi="33">
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:theme="@style/Theme.TreasureMap.Fullscreen">
+            android:theme="@style/Theme.PixelPainter.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
