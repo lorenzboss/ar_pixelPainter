@@ -17,7 +17,7 @@ import ch.bfh.teamulrich.pixelpainter.Screen
 fun BottomBarNavigation(navController: NavController) {
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentRoute = navBackStackEntry?.destination?.route
-    val screens = listOf(Screen.Map, Screen.Pin)
+    val screens = listOf(Screen.Canvas)
 
     BottomNavigation {
         screens.forEach {
