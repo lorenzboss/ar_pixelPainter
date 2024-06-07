@@ -20,8 +20,8 @@ class DrawingBoardState {
         cells.forEachIndexed { index, cellState ->
             if (cellState.color != Color.Transparent) {
                 val pixel = JSONObject()
-                pixel.put("y", index / 13)
-                pixel.put("x", index % 13)
+                pixel.put("y", (index / 13).toString())
+                pixel.put("x", (index % 13).toString())
                 val colorInt = cellState.color.toArgb()
                 val colorStr = "#${
                     colorInt.toUInt().toString(16).padStart(8, '0')
